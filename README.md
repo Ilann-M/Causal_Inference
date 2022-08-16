@@ -22,7 +22,7 @@ jupyter notebook
 ```  
 
 ## Exécution du code
-Exécuter le fichier Dowhy.ipynb
+Exécuter le fichier DoWhy/Exemple_ATE.ipynb
 
 
 Expliquer répos / et code
