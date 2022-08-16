@@ -54,7 +54,7 @@ def CausAnal (complet_df, traitement, outcome, common_c=None, effect_mo=None, in
     
     identified_estimand = model.identify_effect(proceed_when_unidentifiable=True)
     
-    if methode = None : 
+    if methode == None : 
         causal_estimate = model.estimate_effect(identified_estimand, method_name="backdoor.linear_regression")
         print("Linear_regression Causal Estimate is " + str(causal_estimate.value) + "\n ") 
         
